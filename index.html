@@ -161,7 +161,7 @@
             </div>
             
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                <!-- เรียงลำดับตัวอักษร: จองห้องประชุม (จ), บันทึกภาพกิจกรรม (บ) -->
+                <!-- เรียงลำดับตัวอักษร: จองห้องประชุม (จ), บันทึกภาพกิจกรรม (บ), เมนูอาหารกลางวัน วันนี้ (ม) -->
                 <a href="https://meeting-room-booking.ittpth-rayong.workers.dev/meeting-room" target="_blank" class="glass-card card-hover group rounded-2xl p-4 flex items-center gap-3 relative overflow-hidden portal-card">
                     <div class="w-12 h-12 shrink-0 rounded-xl bg-green-100/80 flex items-center justify-center text-green-600 group-hover:scale-110 group-hover:bg-green-100 transition-all duration-300 shadow-sm">
                         <i class="fas fa-calendar-check text-xl"></i>
@@ -179,6 +179,16 @@
                     <div class="relative z-10 flex-1 min-w-0">
                         <h3 class="font-bold text-slate-800 text-sm truncate" data-i18n="title_activity">บันทึกภาพกิจกรรมบริษัท</h3>
                         <p class="text-slate-600 text-xs mt-0.5 font-medium truncate" data-i18n="desc_activity">อัลบั้มภาพกิจกรรมต่างๆ</p>
+                    </div>
+                </a>
+
+                <a href="https://sites.google.com/view/tpthcomputerlunchmenu/" target="_blank" class="glass-card card-hover group rounded-2xl p-4 flex items-center gap-3 relative overflow-hidden portal-card">
+                    <div class="w-12 h-12 shrink-0 rounded-xl bg-amber-100/80 flex items-center justify-center text-amber-600 group-hover:scale-110 group-hover:bg-amber-100 transition-all duration-300 shadow-sm">
+                        <i class="fas fa-bowl-food text-xl"></i>
+                    </div>
+                    <div class="relative z-10 flex-1 min-w-0">
+                        <h3 class="font-bold text-slate-800 text-sm truncate" data-i18n="title_lunchmenu">เมนูอาหารกลางวัน วันนี้</h3>
+                        <p class="text-slate-600 text-xs mt-0.5 font-medium truncate" data-i18n="desc_lunchmenu">รายการอาหารประจำวัน</p>
                     </div>
                 </a>
             </div>
@@ -537,6 +547,16 @@
                     </div>
                 </a>
 
+                <a href="https://claude.ai/" target="_blank" class="glass-card card-hover group rounded-2xl p-4 flex items-center gap-3 relative overflow-hidden portal-card">
+                    <div class="w-12 h-12 shrink-0 rounded-xl bg-orange-50 flex items-center justify-center text-orange-600 group-hover:scale-110 transition-transform shadow-sm">
+                        <i class="fas fa-brain text-xl"></i>
+                    </div>
+                    <div class="relative z-10 flex-1 min-w-0">
+                        <h3 class="font-bold text-slate-800 text-sm truncate" data-i18n="title_claude">Claude AI</h3>
+                        <p class="text-slate-600 text-xs mt-0.5 font-medium truncate" data-i18n="desc_claude">ผู้ช่วย AI จาก Anthropic</p>
+                    </div>
+                </a>
+
                 <a href="https://notebooklm.google/" target="_blank" class="glass-card card-hover group rounded-2xl p-4 flex items-center gap-3 relative overflow-hidden portal-card">
                     <div class="w-12 h-12 shrink-0 rounded-xl bg-sky-50 flex items-center justify-center text-sky-600 group-hover:scale-110 transition-transform shadow-sm">
                         <i class="fas fa-book-journal-whills text-xl"></i>
@@ -544,26 +564,6 @@
                     <div class="relative z-10 flex-1 min-w-0">
                         <h3 class="font-bold text-slate-800 text-sm truncate" data-i18n="title_notebook">Google Notebook</h3>
                         <p class="text-slate-600 text-xs mt-0.5 font-medium truncate" data-i18n="desc_notebook">AI Note Taking</p>
-                    </div>
-                </a>
-
-                <a href="https://chat.deepseek.com/" target="_blank" class="glass-card card-hover group rounded-2xl p-4 flex items-center gap-3 relative overflow-hidden portal-card">
-                    <div class="w-12 h-12 shrink-0 rounded-xl bg-indigo-50 flex items-center justify-center text-indigo-600 group-hover:scale-110 transition-transform shadow-sm">
-                        <i class="fas fa-brain text-xl"></i>
-                    </div>
-                    <div class="relative z-10 flex-1 min-w-0">
-                        <h3 class="font-bold text-slate-800 text-sm truncate" data-i18n="title_deepseek">Deepseek AI</h3>
-                        <p class="text-slate-600 text-xs mt-0.5 font-medium truncate" data-i18n="desc_deepseek">AI Chat Assistant</p>
-                    </div>
-                </a>
-
-                <a href="https://www.kimi.com/th" target="_blank" class="glass-card card-hover group rounded-2xl p-4 flex items-center gap-3 relative overflow-hidden portal-card">
-                    <div class="w-12 h-12 shrink-0 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600 group-hover:scale-110 transition-transform shadow-sm">
-                        <i class="fas fa-comment-dots text-xl"></i>
-                    </div>
-                    <div class="relative z-10 flex-1 min-w-0">
-                        <h3 class="font-bold text-slate-800 text-sm truncate" data-i18n="title_kimi">Kimi AI</h3>
-                        <p class="text-slate-600 text-xs mt-0.5 font-medium truncate" data-i18n="desc_kimi">AI Chat Assistant</p>
                     </div>
                 </a>
             </div>
@@ -710,6 +710,8 @@
                 desc_bus: "ลงทะเบียนรถรับ-ส่งพนักงาน",
                 title_booking: "จองห้องประชุม",
                 desc_booking: "ระบบจองห้องประชุมออนไลน์",
+                title_lunchmenu: "เมนูอาหารกลางวัน วันนี้",
+                desc_lunchmenu: "รายการอาหารประจำวัน",
                 title_uniform: "ระบบสำรวจชุดพนักงาน",
                 desc_uniform: "แบบสำรวจไซส์ชุดประจำปี",
                 title_visitor: "ระบบขออนุญาตเข้าพื้นที่บริษัท",
@@ -767,12 +769,10 @@
                 
                 sec_ai: "ผู้ช่วยอัจฉริยะ (AI Assistant)",
                 sec_tools: "เครื่องมือทั่วไป (General Tools)",
+                title_claude: "Claude AI",
+                desc_claude: "ผู้ช่วย AI จาก Anthropic",
                 title_notebook: "Google Notebook",
                 desc_notebook: "AI Note Taking",
-                title_deepseek: "Deepseek AI",
-                desc_deepseek: "AI Chat Assistant",
-                title_kimi: "Kimi AI",
-                desc_kimi: "AI Chat Assistant",
                 
                 title_search: "ค้นหาด้วย Google",
                 desc_search: "Web Search Engine",
@@ -816,6 +816,8 @@
                 desc_bus: "Register for employee buses",
                 title_booking: "Meeting Room Booking",
                 desc_booking: "Online Booking System",
+                title_lunchmenu: "Today's Lunch Menu",
+                desc_lunchmenu: "Daily lunch menu",
                 title_uniform: "Annual Uniform Survey",
                 desc_uniform: "Employee uniform survey form",
                 title_visitor: "Visitor Access System",
@@ -873,12 +875,10 @@
                 
                 sec_ai: "AI Assistant",
                 sec_tools: "General Tools",
+                title_claude: "Claude AI",
+                desc_claude: "Anthropic AI Assistant",
                 title_notebook: "Google Notebook",
                 desc_notebook: "AI Note Taking",
-                title_deepseek: "Deepseek AI",
-                desc_deepseek: "AI Chat Assistant",
-                title_kimi: "Kimi AI",
-                desc_kimi: "AI Chat Assistant",
 
                 title_search: "Google Search",
                 desc_search: "Web Search Engine",
